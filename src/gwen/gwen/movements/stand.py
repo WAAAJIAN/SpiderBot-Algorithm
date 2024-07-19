@@ -1,7 +1,7 @@
-import maestro
+import gwen.movements.maestro
 import time
 
-servo = maestro.Controller('/dev/ttyAMA0')
+servo = gwen.movements.maestro.Controller('/dev/ttyAMA0')
 print("starting")
 servo.setSpeed(0, 60)
 servo.setSpeed(1, 60)

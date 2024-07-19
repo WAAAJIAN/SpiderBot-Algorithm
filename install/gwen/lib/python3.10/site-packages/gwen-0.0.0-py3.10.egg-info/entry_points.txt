@@ -1,3 +1,4 @@
 [console_scripts]
+maestro = gwen.movements.maestro:main
 stand = gwen.movements.stand:main
 

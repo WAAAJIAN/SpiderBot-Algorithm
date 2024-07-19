@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		'stand = gwen.movements.stand : main'
+		'stand = gwen.movements.stand : main',
+		'maestro = gwen.movements.maestro :main',
         ],
     },
 )
