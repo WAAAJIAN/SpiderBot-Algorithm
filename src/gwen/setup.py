@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='spider',
     maintainer_email='wsjasonteh2003@gmail.com',
-    description='TODO: Package description',
+    description='ROS2 package for our DIY Gwen Spider Hexapod Robot',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
