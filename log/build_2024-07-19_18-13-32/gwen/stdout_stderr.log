@@ -1,0 +1,43 @@
+running egg_info
+writing ../../build/gwen/gwen.egg-info/PKG-INFO
+writing dependency_links to ../../build/gwen/gwen.egg-info/dependency_links.txt
+writing entry points to ../../build/gwen/gwen.egg-info/entry_points.txt
+writing requirements to ../../build/gwen/gwen.egg-info/requires.txt
+writing top-level names to ../../build/gwen/gwen.egg-info/top_level.txt
+reading manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/anticlockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/sit.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/clockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/stand.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/maestro.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+copying gwen/movements/testing_rotate.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+running install
+running install_lib
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/anticlockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/sit.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/clockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/stand.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/maestro.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/testing_rotate.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/anticlockwiseturn.py to anticlockwiseturn.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/sit.py to sit.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/clockwiseturn.py to clockwiseturn.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/stand.py to stand.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/maestro.py to maestro.cpython-310.pyc
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/testing_rotate.py to testing_rotate.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gwen/gwen.egg-info to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info
+running install_scripts
+Installing stand script to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/gwen
+writing list of installed files to '/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log'

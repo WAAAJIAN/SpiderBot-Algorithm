@@ -1,0 +1,6 @@
+source;share/gwen/hook/pythonpath.ps1
+source;share/gwen/hook/pythonpath.dsv
+source;share/gwen/hook/pythonpath.sh
+source;share/gwen/hook/ament_prefix_path.ps1
+source;share/gwen/hook/ament_prefix_path.dsv
+source;share/gwen/hook/ament_prefix_path.sh

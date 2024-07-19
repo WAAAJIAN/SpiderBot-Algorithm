@@ -1,0 +1,34 @@
+[2.814s] Invoking command in '/home/spider/SpiderBot-Algorithm_ros2_ws/src/gwen': PYTHONPATH=/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwen build --build-base /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build install --record /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log --single-version-externally-managed install_data
+[3.891s] running egg_info
+[3.893s] creating ../../build/gwen/gwen.egg-info
+[3.894s] writing ../../build/gwen/gwen.egg-info/PKG-INFO
+[3.895s] writing dependency_links to ../../build/gwen/gwen.egg-info/dependency_links.txt
+[3.896s] writing entry points to ../../build/gwen/gwen.egg-info/entry_points.txt
+[3.896s] writing requirements to ../../build/gwen/gwen.egg-info/requires.txt
+[3.897s] writing top-level names to ../../build/gwen/gwen.egg-info/top_level.txt
+[3.898s] writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+[3.904s] reading manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+[3.905s] adding license file 'LICENSE'
+[3.907s] writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+[3.908s] running build
+[3.908s] running build_py
+[3.909s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build
+[3.909s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib
+[3.910s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen
+[3.910s] copying gwen/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen
+[3.911s] running install
+[3.912s] running install_lib
+[3.915s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen
+[3.915s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen
+[3.918s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/__init__.py to __init__.cpython-310.pyc
+[3.919s] running install_data
+[3.920s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index
+[3.920s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index
+[3.921s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index/packages
+[3.921s] copying resource/gwen -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index/packages
+[3.921s] copying package.xml -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/gwen
+[3.922s] running install_egg_info
+[3.928s] Copying ../../build/gwen/gwen.egg-info to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info
+[3.933s] running install_scripts
+[4.012s] writing list of installed files to '/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log'
+[4.126s] Invoked command in '/home/spider/SpiderBot-Algorithm_ros2_ws/src/gwen' returned '0': PYTHONPATH=/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwen build --build-base /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build install --record /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log --single-version-externally-managed install_data

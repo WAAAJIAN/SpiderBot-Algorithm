@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/gwen/gwen.egg-info
+writing ../../build/gwen/gwen.egg-info/PKG-INFO
+writing dependency_links to ../../build/gwen/gwen.egg-info/dependency_links.txt
+writing entry points to ../../build/gwen/gwen.egg-info/entry_points.txt
+writing requirements to ../../build/gwen/gwen.egg-info/requires.txt
+writing top-level names to ../../build/gwen/gwen.egg-info/top_level.txt
+writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+reading manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen
+copying gwen/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen
+running install
+running install_lib
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen
+copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen
+byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index
+creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index/packages
+copying resource/gwen -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/ament_index/resource_index/packages
+copying package.xml -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/share/gwen
+running install_egg_info
+Copying ../../build/gwen/gwen.egg-info to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log'

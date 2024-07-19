@@ -1,0 +1,29 @@
+Servo Channels on Pololu:
+Ch 0: Coxa 1
+Ch 1: Femur 1
+Ch 2: Tibia 1
+
+Ch 3: Coxa 2 
+Ch 4: Femur 2
+Ch 5: Tibia 2
+
+Ch 6: Coxa 3
+Ch 7: Femur 3
+Ch 8: Tibia 3
+
+Ch 9: Coxa 4 
+Ch 10: Femur 4 
+Ch 11: Tibia 4 
+
+Ch 18: Coxa 5
+Ch 19: Femur 5
+Ch 20: Tibia 5
+
+Ch 21: Coxa 6
+Ch 22: Femur 6
+Ch 23: Tibia 6
+
+Middle: 6000
+Max: 9000
+Min: 3000
+

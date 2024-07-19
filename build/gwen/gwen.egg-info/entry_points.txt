@@ -1,0 +1,3 @@
+[console_scripts]
+stand = gwen.movements.stand:main
+

@@ -1,0 +1,45 @@
+[2.627s] Invoking command in '/home/spider/SpiderBot-Algorithm_ros2_ws/src/gwen': PYTHONPATH=/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwen build --build-base /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build install --record /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log --single-version-externally-managed install_data
+[3.704s] running egg_info
+[3.707s] writing ../../build/gwen/gwen.egg-info/PKG-INFO
+[3.708s] writing dependency_links to ../../build/gwen/gwen.egg-info/dependency_links.txt
+[3.708s] writing entry points to ../../build/gwen/gwen.egg-info/entry_points.txt
+[3.709s] writing requirements to ../../build/gwen/gwen.egg-info/requires.txt
+[3.710s] writing top-level names to ../../build/gwen/gwen.egg-info/top_level.txt
+[3.719s] reading manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+[3.720s] adding license file 'LICENSE'
+[3.722s] writing manifest file '../../build/gwen/gwen.egg-info/SOURCES.txt'
+[3.723s] running build
+[3.723s] running build_py
+[3.725s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.725s] copying gwen/movements/anticlockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.726s] copying gwen/movements/sit.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.727s] copying gwen/movements/clockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.727s] copying gwen/movements/stand.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.728s] copying gwen/movements/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.729s] copying gwen/movements/maestro.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.729s] copying gwen/movements/testing_rotate.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements
+[3.731s] running install
+[3.732s] running install_lib
+[3.735s] creating /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.736s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/anticlockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.737s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/sit.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.737s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/clockwiseturn.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.738s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/stand.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.739s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/__init__.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.739s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/maestro.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.740s] copying /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build/lib/gwen/movements/testing_rotate.py -> /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements
+[3.743s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/anticlockwiseturn.py to anticlockwiseturn.cpython-310.pyc
+[3.746s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/sit.py to sit.cpython-310.pyc
+[3.748s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/clockwiseturn.py to clockwiseturn.cpython-310.pyc
+[3.751s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/stand.py to stand.cpython-310.pyc
+[3.753s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/__init__.py to __init__.cpython-310.pyc
+[3.754s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/maestro.py to maestro.cpython-310.pyc
+[3.757s] byte-compiling /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen/movements/testing_rotate.py to testing_rotate.cpython-310.pyc
+[3.759s] running install_data
+[3.759s] running install_egg_info
+[3.765s] removing '/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info' (and everything under it)
+[3.767s] Copying ../../build/gwen/gwen.egg-info to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages/gwen-0.0.0-py3.10.egg-info
+[3.772s] running install_scripts
+[3.850s] Installing stand script to /home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/gwen
+[3.853s] writing list of installed files to '/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log'
+[3.967s] Invoked command in '/home/spider/SpiderBot-Algorithm_ros2_ws/src/gwen' returned '0': PYTHONPATH=/home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spider/SpiderBot-Algorithm_ros2_ws/install/gwen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gwen build --build-base /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/build install --record /home/spider/SpiderBot-Algorithm_ros2_ws/build/gwen/install.log --single-version-externally-managed install_data
