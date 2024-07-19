@@ -1,4 +1,8 @@
 [console_scripts]
+anticlockwise = gwen.movements.anticlockwiseturn:main
+clockwise = gwen.movements.clockwiseturn:main
 maestro = gwen.movements.maestro:main
+sit = gwen.movements.sit:main
 stand = gwen.movements.stand:main
+testing_rotate = gwen.movements.testing_rotate:main
 

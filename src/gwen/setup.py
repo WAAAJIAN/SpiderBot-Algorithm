@@ -22,6 +22,10 @@ setup(
         'console_scripts': [
 		'stand = gwen.movements.stand : main',
 		'maestro = gwen.movements.maestro :main',
+		'sit = gwen.movements.sit :main',
+		'clockwise = gwen.movements.clockwiseturn :main',
+		'anticlockwise = gwen.movements.anticlockwiseturn :main',
+		'testing_rotate = gwen.movements.testing_rotate :main'
         ],
     },
 )

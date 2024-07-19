@@ -1,4 +1,4 @@
-import maestro
+import gwen.movements.maestro as  maestro
 import time
 
 servo = maestro.Controller('/dev/ttyAMA0')
