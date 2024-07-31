@@ -57,7 +57,7 @@ time.sleep(0.5)
 
 #Coxa
 print("even legs push to the back")
-servo.setTarget(21, 6500)
+servo.setTarget(21, 7700)
 servo.setTarget(9, 7000)
 servo.setTarget(3, 5000)
 time.sleep(0.5)
