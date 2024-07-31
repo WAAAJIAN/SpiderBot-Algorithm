@@ -11,7 +11,7 @@ period = 20000 # period of a whole semicircle (speed)
 x_offset = 0
 y_offset = 200
 z_offset = 60
-steps = 250 # determine how smooth the transit
+steps = 1000 # determine how smooth the transit
 
 ctc = 81
 cl = 32.44
@@ -23,7 +23,7 @@ leg_max_length = 348.44
 class Spider:
     def __init__(self):
         self.leg_count = 6
-        self.leg = [TriLeg(0,0),TriLeg(1,0),TriLeg(0,1),TriLeg(1,1),TriLeg(0,2),TriLeg(1,2)]
+        self.leg = [TriLeg(0,0,0,1,2),TriLeg(1,0,3,4,5),TriLeg(0,1,6,7,8),TriLeg(1,1,9,10,11),TriLeg(0,2,18,19,20),TriLeg(1,2,21,22,23)]
         #self.leg = [TriLeg(0,0,0,1,2)]
         '''
         0       1       
@@ -58,7 +58,6 @@ class Spider:
                 if i.set == 1 and self.time > period/2:
                     i.calculatePos(distance, self.time - period/2)
             self.time += step
-            delay(step)
         self.time = 0
 
 class TriLeg:
@@ -110,17 +109,16 @@ class TriLeg:
         print("angle: ",self.a,",",self.b,",",self.c,"\n")
 
     def angleToDC(self):
-        self.a = 50 * self.a + 6000
-        self.b = -50 * self.b + 6000
-        self.c = 50 * self.c
+        self.a = int(50 * self.a + 6000)
+        self.b = int(-50 * self.b + 6000)
+        self.c = int(50 * self.c)
 
 
     def run(self):
         self.angleToDC()
-        servo.setTarget(self.c, self.a)
-        servo.setTarget(self.f, self.b)
-        servo.setTarget(self.t, self.c)
-        delay(100)
+        servo.setTarget(self.coxa, self.a)
+        servo.setTarget(self.femur, self.b)
+        servo.setTarget(self.tibia, self.c)
         
 
 
