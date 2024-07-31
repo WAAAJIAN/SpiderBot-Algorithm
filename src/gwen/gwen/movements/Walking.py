@@ -83,7 +83,7 @@ class TriLeg:
         else:
             self.x = - (distance*cos(radians(phrase)) + x_offset - distance)
             self.z = z_offset
-            self.y = y_offset
+            self.y = sqrt(((y_offset+ctc)**2)-(self.x**2))-ctc 
         print("position: ", self.x,",",self.y,",",self.z)
         self.IK()
         self.run()
