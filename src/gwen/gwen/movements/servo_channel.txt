@@ -23,7 +23,18 @@ Ch 21: Coxa 6
 Ch 22: Femur 6
 Ch 23: Tibia 6
 
+Coxa:
 Middle: 6000
-Max: 9000
-Min: 3000
+Left: 9000
+Right: 3000
+
+Femur:
+Middle: 6000
+Up: 3000 
+Down: 9000
+
+Tibia:
+Middle: 6000
+Up: 9000
+Down: 3000
 
