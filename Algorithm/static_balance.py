@@ -27,7 +27,8 @@ class Spider:
 
     def rotate_x(self, angle):
         for i in self.leg:
-            i.roll_x 
+            if i.leg == 0 or i.leg == 5 or i.leg == 4: i.rotating(0, -angle) 
+            else: i.rotating(0, angle)
 
 class Leg:
     def __init__(self, leg, c, f, t):
@@ -41,6 +42,7 @@ class Leg:
         self.a = 0                 # angle of coxa
         self.b = 0                 # angle of femur
         self.c = 180               # angle of tibia
+        
         self.offset = 0 if self.leg in (2, 5) else 1
         self.offset_angle = offset_angle_map[self.leg]
 
@@ -52,11 +54,9 @@ class Leg:
 
     def rotating(self, type, angle): # type : 0 = roll, 1 = pitch, 2 = yaw
         R_c = R(self.offset, angle, self.offset_angle)[type]
-        
         self.x += R_c[0]
         self.y += R_c[1]
         self.z += R_c[2]
-
 
     # to be implemented: find the limit for both ik and actual leg
     ''' 

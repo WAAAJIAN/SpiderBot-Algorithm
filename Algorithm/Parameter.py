@@ -12,18 +12,30 @@ cl = 76.42 # length of coxa
 fl = 60    # length of femur
 tl = 157.21   # length of tibia
 
-offset_angle_map = {0: 54, 1: 54, 2: 0, 5: 0, 3: -54, 4: -54} # offset angle of each leg from y axis
+offset_angle = 54
+offset_angle_map = {0: offset_angle, 1: offset_angle, 
+                    2: 0, 5: 0, 
+                    3: -offset_angle, 4: -offset_angle} # offset angle of each leg from y axis
 
 #leg_max_length = 358.44 # maximum y position that leg can go to
 
 #Matrix for transform coordinate on each leg
-M0 = [[sin(radians(30)), cos(radians(30))], [sin(radians(60)), -cos(radians(60))]]    # leg 0
-M1 = [[sin(radians(30)), cos(radians(30))], [-sin(radians(60)), cos(radians(60))]]    # leg 1
+# M0 = [[sin(radians(30)), cos(radians(30))], [sin(radians(60)), -cos(radians(60))]]    # leg 0
+# M1 = [[sin(radians(30)), cos(radians(30))], [-sin(radians(60)), cos(radians(60))]]    # leg 1
+# M2 = [[1, 0], [0, 1]]                                                                 # leg 2
+# M3 = [[sin(radians(30)), -cos(radians(30))], [sin(radians(60)), cos(radians(60))]]    # leg 3
+# M4 = [[sin(radians(30)), -cos(radians(30))], [-sin(radians(60)), -cos(radians(60))]]  # leg 4
+# M5 = [[1, 0], [0, -1]]                                                                # leg 5
+# transformMat = {0: M0, 1: M1, 2: M2, 3: M3, 4: M4, 5: M5}
+
+M0 = [[-acos(offset_angle), asin(offset_angle)],[asin(offset_angle), acos(offset_angle)]]    # leg 0
+M1 = [[acos(offset_angle), -asin(offset_angle)], [asin(offset_angle), acos(offset_angle)]]    # leg 1
 M2 = [[1, 0], [0, 1]]                                                                 # leg 2
-M3 = [[sin(radians(30)), -cos(radians(30))], [sin(radians(60)), cos(radians(60))]]    # leg 3
-M4 = [[sin(radians(30)), -cos(radians(30))], [-sin(radians(60)), -cos(radians(60))]]  # leg 4
-M5 = [[1, 0], [0, -1]]                                                                # leg 5
+M3 = [[acos(offset_angle), asin(offset_angle)], [-asin(offset_angle), acos(offset_angle)]]    # leg 3
+M4 = []  # leg 4
+M5 = [[-1, 0], [0, 1]]                                                                # leg 5
 transformMat = {0: M0, 1: M1, 2: M2, 3: M3, 4: M4, 5: M5}
+
 
 def vectorMull(m1, m2): # transform vector (Matrix Multiplication)
     m3 = [(m1[0][0])*(m2[0]) + (m1[0][1])*(m2[1]), (m1[1][0])*(m2[0]) + (m1[1][1])*(m2[1])]
